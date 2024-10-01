@@ -92,8 +92,7 @@ h1 {
 }
 
 .newgame {
-    position: relative;
-    left: 660px;
+    
     margin-top: 20px;
     height: 50px;
     text-align: center;
@@ -106,6 +105,11 @@ h1 {
     border-radius: 8px;
     cursor: pointer;
     font-size: x-large;
+}
+.kll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width:1500px) {
