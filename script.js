@@ -9,7 +9,7 @@ let h = document.querySelector("#h");
 let i = document.querySelector("#i");
 let z = document.querySelector("body");
 let audioElement = document.getElementById("myAudio");
-let audioElement1 = document.getElementById("myAudio1");
+
 let j = document.querySelectorAll(".box");
 
 win = [
@@ -72,7 +72,7 @@ function winner() {
     let p3 = j[i[2]].innerText;
     if (p1 != "" && p2 != "" && p3 != "") {
       if (p1 === p2 && p2 === p3) {
-        audioElement1.play();
+      
         checkdraw = true;
         showwinner(p1);
       }
@@ -81,7 +81,7 @@ function winner() {
 }
 
 function showdraw() {
-  audioElement1.play();
+  
   z.innerHTML = `<div id="klkl">
     <p> DRAW</p><br><br>
     <div id="kkl">RESTART</div>
